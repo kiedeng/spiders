@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3325eb14-ca37-4eea-97b5-c6ef28361ba5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/spiders.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/wqxuetang_downloader-ad0c71480c4eeaf338d09492237ed70e3d28d0be.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book_info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/change_pdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invalid_pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wqxtDownloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wqxtPDF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/目录.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/解码文件.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/Hadoop + Spark生态系统操作与实战指南.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/Hadoop Spark大数据技术（微课版）.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/Hadoop大数据分析实战.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/Hadoop构建数据仓库实践.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/Java Web开发基础——从Servlet到JSP（第2版）.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/MySQL 8从入门到精通（视频教学版）.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/Python 网络爬虫实战.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/Python轻松学" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/Spring Boot开发实战－微课视频版.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/crawlBook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/in.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/new_crawl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/proxy_boook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/try_proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/100.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/101.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/102.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/103.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/104.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/105.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/106.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/107.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/108.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/109.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/110.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/111.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/112.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/113.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/114.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/115.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/116.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/117.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/118.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/119.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/120.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/121.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/122.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/123.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/124.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/125.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/126.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/127.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/128.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/129.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/13.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/130.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/131.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/132.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/133.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/134.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/135.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/136.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/137.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/138.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/139.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/140.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/141.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/142.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/143.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/144.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/145.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/146.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/147.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/148.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/149.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/150.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/151.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/152.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/153.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/154.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/155.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/156.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/157.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/158.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/159.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/160.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/161.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/162.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/163.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/164.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/165.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/166.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/167.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/168.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/169.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/17.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/170.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/171.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/172.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/173.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/174.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/175.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/176.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/177.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/178.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/179.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/18.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/180.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/181.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/182.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/183.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/184.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/185.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/186.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/187.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/188.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/189.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/19.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/190.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/191.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/192.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/193.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/194.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/195.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/196.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/197.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/198.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/199.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/20.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/200.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/201.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/202.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/203.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/204.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/205.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/206.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/207.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/208.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/209.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/21.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/210.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/211.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/212.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/213.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/214.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/215.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/216.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/217.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/218.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/219.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/22.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/220.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/221.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/222.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/223.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/224.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/225.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/226.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/227.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/228.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/229.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/23.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/230.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/231.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/232.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/233.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/234.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/235.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/236.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/237.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/238.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/239.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/24.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/240.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/241.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/242.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/243.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/244.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/245.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/246.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/247.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/248.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/249.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/25.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/250.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/251.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/252.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/253.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/254.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/255.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/256.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/257.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/258.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/259.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/26.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/260.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/261.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/262.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/263.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/264.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/265.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/266.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/267.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/268.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/269.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/27.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/270.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/271.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/272.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/273.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/274.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/275.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/276.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/277.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/278.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/279.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/28.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/280.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/281.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/282.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/283.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/284.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/285.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/286.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/287.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/288.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/289.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/29.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/290.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/291.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/292.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/293.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/294.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/295.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/296.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/297.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/298.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/299.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/30.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/300.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/301.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/302.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/303.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/304.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/305.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/306.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/307.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/308.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/309.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/31.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/310.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/311.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/32.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/33.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/34.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/35.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/36.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/37.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/38.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/39.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/40.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/41.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/42.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/43.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/44.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/45.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/46.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/47.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/48.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/49.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/50.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/51.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/52.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/53.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/54.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/55.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/56.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/57.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/58.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/59.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/60.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/61.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/62.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/63.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/64.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/65.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/66.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/67.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/68.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/69.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/70.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/71.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/72.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/73.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/74.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/75.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/76.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/77.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/78.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/79.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/80.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/81.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/82.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/83.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/84.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/85.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/86.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/87.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/88.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/89.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/90.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/91.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/92.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/93.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/94.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/95.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/96.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/97.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/98.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/zzuli/99.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/书籍信息json.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/云计算与大数据技术.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/大数据专业英语教程.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/大数据导论.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/大数据离线分析.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/实战Python网络爬虫.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/数据结构.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/深入浅出大数据.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../文泉学堂书籍爬取/计算机网络基础.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../模拟爬电子工业.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/wqxtDownloader.py" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1XMx150cG0xu5O2ZihwbuTPokS5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Tencent Files/572245955/FileRecv/文泉下载（4）" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kaiden\Documents\Tencent Files\572245955\FileRecv\wqxuetang_downloader-ad0c71480c4eeaf338d09492237ed70e3d28d0be" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="change_pdf (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="wqxuetang_downloader-ad0c71480c4eeaf338d09492237ed70e3d28d0be" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/change_pdf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="change_pdf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="wqxuetang_downloader-ad0c71480c4eeaf338d09492237ed70e3d28d0be" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Code\py\spiders\下载器改进\change_pdf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="wqxuetang_downloader-ad0c71480c4eeaf338d09492237ed70e3d28d0be" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="wqxuetang_downloader-ad0c71480c4eeaf338d09492237ed70e3d28d0be" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Code\py\spiders\下载器改进\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wqxtPDF" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="wqxuetang_downloader-ad0c71480c4eeaf338d09492237ed70e3d28d0be" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wqxtPDF.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.change_pdf (1)" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.change_pdf" />
+        <item itemvalue="Python.wqxtPDF" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3325eb14-ca37-4eea-97b5-c6ef28361ba5" name="Default Changelist" comment="" />
+      <created>1580869546381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580869546381</updated>
+      <workItem from="1580869547738" duration="7253000" />
+      <workItem from="1580877704751" duration="566000" />
+      <workItem from="1580878317248" duration="12218000" />
+      <workItem from="1580893247572" duration="578000" />
+      <workItem from="1580893840079" duration="1958000" />
+      <workItem from="1580896599615" duration="3545000" />
+      <workItem from="1580900264191" duration="1198000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="504" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580875154495">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="504" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1580875154495" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580875360616">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1580875360616" />
+    <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1580894563291">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1580894563291" />
+    <state width="1493" height="228" key="GridCell.Tab.0.bottom" timestamp="1580900147546">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1580900147546" />
+    <state width="1493" height="228" key="GridCell.Tab.0.center" timestamp="1580900147546">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1580900147546" />
+    <state width="1493" height="228" key="GridCell.Tab.0.left" timestamp="1580900147546">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1580900147546" />
+    <state width="1493" height="228" key="GridCell.Tab.0.right" timestamp="1580900147546">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1580900147546" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1580876925128">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1580876925128" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1580876925128">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1580876925128" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1580876925128">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1580876925128" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1580876925128">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1580876925128" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$try.coverage" NAME="try Coverage Results" MODIFIED="1580881979960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wqxuetang_downloader_ad0c71480c4eeaf338d09492237ed70e3d28d0be$.coverage" NAME="生成图片 Coverage Results" MODIFIED="1580876716883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$.coverage" NAME="生成图片 Coverage Results" MODIFIED="1580897511420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$wqxtPDF.coverage" NAME="wqxtPDF Coverage Results" MODIFIED="1580894746088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$main.coverage" NAME="main Coverage Results" MODIFIED="1580897080274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1580899164977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wqxuetang_downloader_ad0c71480c4eeaf338d09492237ed70e3d28d0be$main.coverage" NAME="main Coverage Results" MODIFIED="1580876859581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$change_pdf__1_.coverage" NAME="change_pdf (1) Coverage Results" MODIFIED="1580899098858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wqxuetang_downloader_ad0c71480c4eeaf338d09492237ed70e3d28d0be$wqxtDownloader.coverage" NAME="wqxtDownloader Coverage Results" MODIFIED="1580872232798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$wqxtDownloader.coverage" NAME="wqxtDownloader Coverage Results" MODIFIED="1580880342041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
