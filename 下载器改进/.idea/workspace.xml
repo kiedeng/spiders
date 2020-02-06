@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3325eb14-ca37-4eea-97b5-c6ef28361ba5" name="Default Changelist" comment="" />
+    <list default="true" id="3325eb14-ca37-4eea-97b5-c6ef28361ba5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/book_info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +179,8 @@
       <workItem from="1580893247572" duration="578000" />
       <workItem from="1580893840079" duration="1958000" />
       <workItem from="1580896599615" duration="3545000" />
-      <workItem from="1580900264191" duration="2064000" />
+      <workItem from="1580900264191" duration="12046000" />
+      <workItem from="1580991409104" duration="301000" />
     </task>
     <servers />
   </component>
@@ -194,26 +199,30 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1580875360616" />
+    <state x="372" y="7" key="CommitChangelistDialog2" timestamp="1580991721348">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="372" y="7" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1580991721348" />
     <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1580894563291">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1580894563291" />
-    <state width="1493" height="228" key="GridCell.Tab.0.bottom" timestamp="1580900147546">
+    <state width="1493" height="337" key="GridCell.Tab.0.bottom" timestamp="1580991731432">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="228" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1580900147546" />
-    <state width="1493" height="228" key="GridCell.Tab.0.center" timestamp="1580900147546">
+    <state width="1493" height="337" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1580991731432" />
+    <state width="1493" height="337" key="GridCell.Tab.0.center" timestamp="1580991731432">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="228" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1580900147546" />
-    <state width="1493" height="228" key="GridCell.Tab.0.left" timestamp="1580900147546">
+    <state width="1493" height="337" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1580991731432" />
+    <state width="1493" height="337" key="GridCell.Tab.0.left" timestamp="1580991731432">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="228" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1580900147546" />
-    <state width="1493" height="228" key="GridCell.Tab.0.right" timestamp="1580900147546">
+    <state width="1493" height="337" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1580991731432" />
+    <state width="1493" height="337" key="GridCell.Tab.0.right" timestamp="1580991731432">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="228" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1580900147546" />
+    <state width="1493" height="337" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1580991731432" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1580876925128">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -237,7 +246,7 @@
     <SUITE FILE_PATH="coverage/$.coverage" NAME="生成图片 Coverage Results" MODIFIED="1580897511420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$wqxtPDF.coverage" NAME="wqxtPDF Coverage Results" MODIFIED="1580894746088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$main.coverage" NAME="main Coverage Results" MODIFIED="1580897080274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1580899164977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1580991731422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wqxuetang_downloader_ad0c71480c4eeaf338d09492237ed70e3d28d0be$main.coverage" NAME="main Coverage Results" MODIFIED="1580876859581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$change_pdf__1_.coverage" NAME="change_pdf (1) Coverage Results" MODIFIED="1580899098858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/wqxuetang_downloader_ad0c71480c4eeaf338d09492237ed70e3d28d0be$wqxtDownloader.coverage" NAME="wqxtDownloader Coverage Results" MODIFIED="1580872232798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

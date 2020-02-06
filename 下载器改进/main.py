@@ -27,7 +27,7 @@ book_uid = 0
 # 书籍的总URL
 book_url = ""
 # 线程数
-thread_count = 30
+thread_count = 5
 
 title_name = ""
 
@@ -68,11 +68,11 @@ def load_img(count):
         with open(local_path, "wb") as f:
             while 1:
                 try:
-                    content = requests.get(url).content
+                    content = requests.get(url, timeout=15).content
                     break
                 except Exception:
                     print("访问出错。。重新访问")
-                    time.sleep(1)
+                    time.sleep(2)
 
             f.write(content)
         print("第" + str(page) + "页正在下载完成。。。")
